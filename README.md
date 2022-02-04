@@ -20,7 +20,41 @@ I have also designed and developed a well thought out, user friendly interface f
 - All visitors/users can browse Pantheon in four different themes. 
 
 ## How to download and run this framework locally
+**Required Software: XAMPP v7.4.27**
+1. Download and unzip the ZIP file in the dist folder: [`Pantheon.zip`](dist/Pantheon.zip)
+2. Dowload the SQL dump file in the dist folder: [`pantheon.sql`](dist/pantheon.sql)
+3. Import the SQL dump file using **phpMyAdmin** to locally create the sample schema and tables associated with Pantheon.
+4. Copy the extracted *Pantheon* folder into htdocs folder which can be found inside the installed *XAMPP* folder directory.
+5. After the above steps are done, you can run `index.php` from Pantheon folder to open Pantheon's current version.
+6. Default credentials for the connection to MySQL database are:
+    - host : localhost
+    - user : root
+    - pass : (*to be set by the user*)
+    - db_name : pantheon
 
+    Incase your database/phpMyAdmin uses a different host, username and password to connect, follow these steps:
+    1. Go to `root` folder in the parent directory.
+    2. Open `db.php` in the root folder.
+    3. Simply change the values of the above mentioned fields. (line 2-5)
+
+    ```
+        <?php
+        $db['db_host'] = "localhost";
+        $db['db_user'] = "root";
+        $db['db_pass'] = "";
+        $db['db_name'] = "pantheon";
+
+        foreach($db as $key => $value) {
+        define(strtoupper($key), $value);
+        }
+
+        $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+        //if ($connection) {
+        //    echo "Pantheon is online.";
+        //}
+        ?>
+    ```
+7. Once these credentials match, your `index.php` would run normally.
 
 ## Pantheon's Preview 
 
