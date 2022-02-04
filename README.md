@@ -80,8 +80,8 @@ The following are the technologies that have been used in the development of Pan
 
 ## Source Code
 Pantheon's software code is designed to be very modular and reusable by packaging the two most used template layers into a single root folder.
-- Pantheon : ['root'](root/)
-- Dashboard : ['admin/root'](admin/root/)
+- Pantheon : [`root`](root/)
+- Dashboard : [`admin/root`](admin/root/)
 
 ## Work-in-Progress
 This framework is a work in progress and more features are yet to be added with new technologies.
