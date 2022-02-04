@@ -26,6 +26,11 @@ Landing page for Pantheon that lets you login or register and also leads you to 
 
 <img src="desc/Home01.png" />
 
+### Login/Register
+Users can create account on Pantheon and login to them.
+
+<img src="desc/login.png" /> <img src="desc/register.png" />
+
 ### Blog Posts
 Blog posts page that allows all visitors/users to view all the posts on the website.
 
@@ -46,3 +51,17 @@ Visitors/Users can leave comments on posts. Visitors without an account would ha
 Pantheon includes an internal search feature that allows users to search for what they are looking for on the website using keywords.
 
 <img src="desc/search01.png" />
+
+### Dashboard
+#### How the dashboard looks for an admin role:
+
+<img src="desc/admin-panel.png" />
+
+#### How the dashboard looks for a member role:
+
+<img src="desc/member-panel.png" />
+
+### Profile
+All Pantheon users view and update their profile.
+
+<img src="desc/profile.png" />
