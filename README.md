@@ -22,7 +22,7 @@ I have also designed and developed a well thought out, user friendly interface f
 ## Pantheon's Preview 
 
 ### Home
-Landing page for Pantheon that lets you login or register on the website and also leads you to all the blog posts on the website.
+Landing page for Pantheon that lets you login or register and also leads you to all the blog posts on the website.
 
 <img src="desc/Home01.png" />
 
@@ -40,4 +40,9 @@ All the posts have the same layout.
 ### Comments Section
 Visitors/Users can leave comments on posts. Visitors without an account would have to specify their details everytime before leaving a comment.
 
-<img src="desc/comments.png" />
+<img src="desc/comments (2).png" />
+
+### Internal Search
+Pantheon includes an internal search feature that allows users to search for what they are looking for on the website using keywords.
+
+<img src="desc/search01.png" />
