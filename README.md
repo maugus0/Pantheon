@@ -62,6 +62,6 @@ Pantheon includes an internal search feature that allows users to search for wha
 <img src="desc/member-panel.png" />
 
 ### Profile
-All Pantheon users view and update their profile.
+All Pantheon users can view and update their profile.
 
 <img src="desc/profile.png" />
