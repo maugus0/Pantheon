@@ -1,0 +1,21 @@
+#scrollUp i,.demo-thumb .single-thumb a span,.site-header .button:hover,.site-header .nav li a::before,.site-header .button:before,.work .single-work:hover .serial span,.team .single-team .info-head:before,.testimonials .single-testimonial:before,.testimonials .owl-dots .owl-dot span,.main-sidebar .single-widget .title::before,.main-sidebar .search .button:hover,.main-sidebar .side-tags .tag a:hover,.main-sidebar .newsletter .letter-inner .form-inner a,.blog-single .share-social .content-tags .tag-inner li a:hover,.blog-single .comments .comment-title:before,.blog-single .reply .reply-title:before,.contact-us .single-head.overlay:before,.error-page .search-form .btn,.section-title h2:before,.btn,.breadcrumbs,.pricing-table .single-table .popular{
+	background:#09B6DD;
+}
+.btn-primary:hover{
+	background:#09B6DD !important;
+}
+.demo-section.overlay:before,.hero-header,.product-counter-section,.get-started{
+	background: linear-gradient(45deg,#09B6DD,#0384F6);
+}
+.site-header .social-contact ul li a:hover,.site-header .button,.home-v3 .owl-carousel .owl-nav div:hover,.services-area .short-title,.work .single-work .serial span,.faq-section .simple-card .btn-link:hover,.blog .single-news .news-body h2:hover a,.main-sidebar .categor-list li a:hover,.main-sidebar .single-post .content h5 a:hover,.blog-single .blog-meta .author i,.blog-single .blog-meta span a i,.blog-single .blog-meta span a:hover,.blog-single blockquote i,.blog-single .single-comment .content a:hover,.contact-us .title h4,.contact-us .single-info i,.get-started .btn,.error-page .error-inner h1,.mail-seccess .success-inner h1,.footer .single-footer.f-link li a:hover,.footer .footer-social li a:hover,.team .single-team .info-box .name a,.footer .single-footer.f-link li a:hover{
+	color:#09B6DD;
+}
+.hero-header .btn:hover,.hero-header .btn.primary,.blog-single .single-comment .content .btn:hover{
+	color:#09B6DD !important;
+}
+.preloader-spinner,.testimonials .owl-dots .owl-dot.active span,.testimonials .owl-dots .owl-dot:hover span{
+	border-color:#09B6DD;
+}
+.blog-single blockquote{
+	border-left-color:#09B6DD;
+}
