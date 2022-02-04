@@ -19,6 +19,9 @@ I have also designed and developed a well thought out, user friendly interface f
 - Only Users of Pantheon have the access to view the overall statistics of Pantheon which includes total amount of posts, users, comments and categories on the website.
 - All visitors/users can browse Pantheon in four different themes. 
 
+## How to download and run this framework locally
+
+
 ## Pantheon's Preview 
 
 ### Home
@@ -65,3 +68,20 @@ Pantheon includes an internal search feature that allows users to search for wha
 All Pantheon users can view and update their profile.
 
 <img src="desc/profile.png" />
+
+## Technologies Used
+The following are the technologies that have been used in the development of Pantheon. They are all free to use:
+- Bootstrap v5.0.
+- FontIcons.
+- LineIcons.
+- XAMPP (to mimic a web server)
+- Visual Studio Code.
+- phpMyAdmin
+
+## Source Code
+Pantheon's software code is designed to be very modular and reusable by packaging the two most used template layers into a single root folder.
+- Pantheon : ['root'](root/)
+- Dashboard : ['admin/root'](admin/root/)
+
+## Work-in-Progress
+This framework is a work in progress and more features are yet to be added with new technologies.
